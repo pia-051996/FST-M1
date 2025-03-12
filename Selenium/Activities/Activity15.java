@@ -26,8 +26,8 @@ public class Activity15 {
         WebElement eventDate = driver.findElement(By.xpath("//input[contains(@name, '-event-date-')]"));
         WebElement details = driver.findElement(By.xpath("//textarea[contains(@id, '-additional-details-')]"));
         // Enter the details
-        fullName.sendKeys("Mausumi Acharya");
-        email.sendKeys("mausumi.a@electromail.com");
+        fullName.sendKeys("Priyanka Madishetty");
+        email.sendKeys("priyanka.m@electromail.com");
         eventDate.sendKeys("2080-06-26");
         details.sendKeys("It will be electric!");
         // Find and click the submit button
