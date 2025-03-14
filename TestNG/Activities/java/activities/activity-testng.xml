@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FSTTestSuite" thread-count="4" parallel="classes">
+	<!--<groups>
+		<run>
+			<include name="HeaderTests" />
+		</run>
+	</groups>-->
+	<parameter name="username" value="admin"></parameter>
+	<parameter name="password" value="password"></parameter>
+	<test name="FSTActivities">
+		<classes>
+			<class name="activities.Activity1" />
+			<class name="activities.Activity2" />
+			<class name="activities.Activity3" />
+			<class name="activities.Activity4_DemoOne" />
+			<class name="activities.Activity4_DemoTwo" />
+			<class name="activities.Activity5" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
